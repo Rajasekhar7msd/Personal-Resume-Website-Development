@@ -1,0 +1,85 @@
+/* Common styles for all pages */ 
+ 
+body { 
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color:black; 
+    color: white; 
+} 
+ 
+nav { 
+    background-color: #3b01fc; 
+    color: #fff; 
+    padding: 10px; 
+      margin: 10px 100px;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px ridge rgb(252, 6, 162);
+} 
+ 
+nav ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+nav ul li { 
+    display: inline; 
+    margin-right: 10px; 
+} 
+ 
+nav ul li a { 
+    color: #fff; 
+    text-decoration: none; 
+} 
+nav ul li a { 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 0 10px; /* Add padding to create space */ 
+    border-right: 1px solid #fff; /* Add border to create a line */ 
+    transition: opacity 0.3s; /* Add transition for smooth effect */ 
+} 
+nav ul li:last-child a { 
+    border-right: none; /* Remove border from the last link */ 
+} 
+ 
+nav ul li a:hover { 
+    opacity: 0.7; /* Change opacity on hover */ 
+} 
+ 
+.container { 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 0 20px; 
+    text-align: center; 
+    color: white; 
+    background-color: black; 
+} 
+ 
+h1 { 
+    color: #333; 
+} 
+ 
+.hobby { 
+    background-color: #fff; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+} 
+ 
+.hobby:hover { 
+    transform: translateY(-5px); 
+} 
+ 
+.hobby h2 { 
+    color: #333; 
+    margin-bottom: 10px; 
+} 
+ 
+.hobby p { 
+    color: #666; 
+    margin-bottom: 5px; 
+} 
